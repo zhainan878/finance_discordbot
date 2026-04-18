@@ -4,8 +4,9 @@ import feedparser
 import asyncio
 
 # 🔑 從 Render 環境變數讀取（安全）
-TOKEN = os.environ["TOKEN"]
 CHANNEL_ID = int(os.environ["CHANNEL_ID"])
+TOKEN = os.environ["TOKEN"]
+
 
 # 🤖 Discord 設定
 intents = discord.Intents.default()
