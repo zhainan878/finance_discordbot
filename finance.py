@@ -7,7 +7,6 @@ import asyncio
 CHANNEL_ID = int(os.environ["CHANNEL_ID"])
 TOKEN = os.environ["TOKEN"]
 
-
 # 🤖 Discord 設定
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
